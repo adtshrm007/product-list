@@ -1,0 +1,305 @@
+body{
+    margin: 0%;
+    background-color: rgba(165, 42, 42, 0.025);
+}
+*{
+    margin: 0%;
+}
+.type_of_dish{
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 5em;
+    font-weight: 900;
+    background-image: url(lemon-panna-cotta-with-vodka-blueberry-syrup-92005-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+}
+.item_no_1{
+    width: 250px;
+    height: 220px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+.baklava{
+    width: 100%;
+    height: 80%;
+    border-radius: 12px;
+    
+}
+
+.add_to_cart{
+    width: 180px;
+    height: 35px;
+    border: 1px solid #C04000;
+    border-top-left-radius:50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius:50px ;
+    background-color: white;
+    margin-left: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: -20px;
+    left: -12px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-evenly;
+   cursor: pointer;
+}
+.info{
+    font-weight: 700;
+    
+}
+.food_items{
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+.item_no_2{
+    width: 300px;
+    height: 220px;
+    
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right: 20px;
+    
+}
+.brownie{
+    width: 100%;
+    height: 80%;
+    border-radius: 12px;
+    overflow: hidden;
+    
+ 
+}
+.cart_section{
+    border-radius: 20px;
+    width: 250px;
+    height: fit-content;
+    float: right;
+    position: relative;
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 20px;
+    left: -50px;
+    top: -30px;
+    flex-wrap: wrap;
+}
+.item{
+    text-align: left;
+    padding-top: 15px;
+    position: relative;
+    top: -10px;
+    font-weight: 700;
+}
+.price{
+    text-align: left;
+    position: relative;
+    top: -5px;
+    font-weight: 550;
+    color: rgba(165, 42, 42, 0.699);
+}
+.cart{
+    text-align: left;
+    font-weight: bolder;
+    color: rgba(165, 42, 42, 0.699);
+    padding-top: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+}
+.change_on_click.add_to_cart{
+     
+    background-color:#C04000;
+    .cart_icon{
+        display: none;
+    }
+    .info{
+        display: none;
+    }
+    .brownie{
+        border: 2px solid #C04000;
+    }
+    
+    
+    
+    
+}
+
+.empty_pic{
+    position: relative;
+    left: 50px;
+}
+.basic_info{
+    text-align: center;
+    color: #C4A484;
+    margin-bottom: 10px;
+}
+
+
+.selected_food_item
+{
+    border-bottom: 1px solid #88888832;
+    width: 100%;
+    height: fit-content;
+    padding-top: 20px;
+    display: block;
+}
+.quantity_price{
+    padding-top: 10px;
+    color: #C04000;
+
+}
+.price_selected{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.close_icon{
+    float: right;
+}
+.carbon_neutral{
+    padding-top: 10px;
+    width: 100%;
+    background-color:#F5F5DC;
+    border-radius: 12px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+    display: none;
+}
+.tree{
+    padding-left: 10px;
+    
+}
+.neutral{
+    font-size: 0.9em;
+    
+}
+.confirmation_button{
+    width: 100%;
+    background-color: #C04000;
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius:50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius:50px ;
+    color: white;
+    margin-bottom: 10px;
+    display: none;
+    cursor: pointer;
+}
+.pic.empty_pic{
+    display: none;
+}
+.basic.basic_info{
+    display: none;
+}
+.selected.selected_food_item{
+    display: block;
+}
+.button.confirmation_button{
+    display: flex;
+}
+.carbon.carbon_neutral{
+    display: flex;
+}
+.item1{
+    text-align: left;
+    padding-top: 15px;
+    position: fixed;
+    top: -10px;
+    font-weight: 700;
+}
+.border.brownie{
+    border: 2px solid #C04000;
+}
+.order_total{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+.order{
+    color: #C04000;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.sum{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.popup{
+    width: 300px;
+    height: fit-content;
+    position: relative;
+    margin: auto;
+    background-color:white;
+    display: none;
+    border-radius: 20px;
+    z-index: 9;
+    
+}
+.tick_icon{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.popup_open.popup{
+    display: block;
+}
+.order_confirmed{
+    color: 	#6E260E;
+    font-weight: 900;
+    font-size: 1.6em;
+    padding: 10px 10px 10px 10px;
+}
+.start_new_order{
+    background-color:#C04000;
+    width: 250px;
+    height: 40px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius:50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius:50px ;
+    cursor: pointer;
+}
+.new_order{
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    
+}
+.final_order_list{
+    padding-left: 12px;
+    display: block;
+    
+    background-color: #F5DEB3;
+    border-radius: 15px;
+}
+.blurred {
+    filter: blur(1px); 
+    pointer-events: none; 
+}
